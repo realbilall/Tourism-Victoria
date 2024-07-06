@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+body {
+    background: linear-gradient(red, yellow);
+}
+
+nav ul {
+    list-style: none;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+main {
+    padding: 100px;
+}
+
+footer div:hover {
+    color: yellow;
+    cursor: pointer;
+}
+
+.event {
+    margin-bottom: 20px;
+    display: inline-block;
+    text-align: center;
+    padding: 20px;
+}
+
+.event img {
+    transition: transform 0.5s ease;
+    border-radius: 4px;
+}
+
+.event:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.h3 {
+    position: relative;
+    bottom: 20px;
+}
+
+#Heading {
+    text-align: center;
+}
+
+form {
+    width: 60%;
+    background-color: white;
+    padding: 20px;
+    border: 2px solid black;
+    border-radius: 3px;
+    margin: auto;
+}
+
+form input[type="text"],
+form textarea {
+    width: 99%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    height: 50px;
+}
+
+button[type="submit"] {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(255, 209, 123);
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
